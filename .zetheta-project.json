@@ -1,0 +1,50 @@
+{
+  "project": "Interactive Financial Education Module Builder",
+  "role": "Lead Front-End Developer",
+  "company": "EduForge Financial Technologies",
+  "version": "1.0.0",
+  "deadlineDays": 15,
+  "scoring": {
+    "total": 1000,
+    "contentCreatorPanel": 400,
+    "technicalArchitectureReviewBoard": 600
+  },
+  "techStack": {
+    "framework": "React 18+",
+    "language": "TypeScript 5.3+ (strict)",
+    "editorCore": "TipTap",
+    "state": "Zustand 4.x + Immer",
+    "styling": "Tailwind CSS 3.4+",
+    "animation": "Framer Motion 10.x+",
+    "dragAndDrop": "dnd-kit",
+    "charts": "Recharts",
+    "testing": "Vitest + Playwright",
+    "build": "Vite 5.x+",
+    "packageManager": "pnpm",
+    "sanitization": "DOMPurify"
+  },
+  "blocks": [
+    "rich-text",
+    "image",
+    "video-embed",
+    "quiz-mcq",
+    "quiz-true-false",
+    "emi-calculator",
+    "sip-calculator",
+    "compound-interest",
+    "callout",
+    "divider",
+    "accordion",
+    "progress-tracker",
+    "achievement-badge",
+    "code-snippet",
+    "concept-explainer"
+  ],
+  "deliverables": [
+    "AGENTS.md",
+    "docs/CONTENT_CREATOR_GUIDE.md",
+    "docs/ARCHITECTURE.md",
+    "AI_USAGE_LOG.md",
+    "CHANGELOG.md"
+  ]
+}
